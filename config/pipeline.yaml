@@ -1,0 +1,19 @@
+project:
+  name: riesgo-vial-peru
+
+paths:
+  raw: data/raw
+  silver: data/silver
+  gold: data/gold
+
+tables:
+  bronze: bronze_accidentes
+  silver: silver_accidentes
+  gold: gold_riesgo_vial
+
+quality_rules:
+  remove_duplicates: true
+  remove_nulls: true
+
+business_rules:
+  risk_score_formula: "(accidentes*1)+(heridos*3)+(fallecidos*5)"
