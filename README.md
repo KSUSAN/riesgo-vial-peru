@@ -19,10 +19,20 @@ Datos Públicos ↓ GitHub ↓ Bronze ↓ Silver ↓ Gold ↓ Power BI
 
 Capas
 Bronze
-Datos originales.
+Datos originales sin transformación.
 
 Silver
 Datos limpios y estandarizados.
 
 Gold
 Indicadores y métricas de negocio.
+
+KPI Principal
+Índice de Riesgo Vial.
+
+Herramientas
+GitHub
+Databricks
+PySpark
+SQL
+Power BI
